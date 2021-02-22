@@ -14,6 +14,7 @@ export const TagItem = styled.span`
 
 export const CountUpTag = styled.div`
     font-size:22pt;
+    padding-top:2em;
 `;
 
 export const Title = styled.div`

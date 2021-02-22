@@ -94,6 +94,9 @@ const Styles = createGlobalStyle`
     // Custom Marker Highlight
     .realistic-marker-highlight{
         position:relative;
+        @media only screen and (max-width: 1130px) {
+            display:inline-block;
+        }
     }
         
     .realistic-marker-highlight:before{
@@ -118,10 +121,21 @@ const Styles = createGlobalStyle`
         position:absolute;
         z-index:-1;
         left:-0.25em;
-        top:1.8em;
+        top:6em;
         padding:0 0.25em;
         -webkit-transform: skew(155deg);
         transform: skew(155deg);
+    }
+
+    
+    @media only screen and (max-width: 1214px) {
+        
+        .highlight-marker-mobile:before{
+            top:85px;
+        }
+        .highlight-marker-mobile > div{
+            padding-top:1.2em;
+        }
     }
 
     // Background images

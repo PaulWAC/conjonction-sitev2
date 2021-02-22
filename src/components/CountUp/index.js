@@ -22,7 +22,7 @@ export default function CountUpNumbers() {
             <Row type="flex" justify="space-between" align="middle">
                 <Col lg={8} md={8} sm={8} xs={24}>
                         <S.TagItem>Années d'expertise en investissement immobilier</S.TagItem>
-                        <div className="realistic-marker-highlight-title">
+                        <div className="realistic-marker-highlight-title highlight-marker-mobile">
                             <S.CountUpTag>
                                 <CountUp end={25} delay={2}/>
                             </S.CountUpTag>

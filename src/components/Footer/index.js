@@ -56,7 +56,7 @@ const Footer = ({ t }) => {
                 </S.Large>
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
+                {/* <S.Empty /> */}
                 <S.Large left="true" to="/">
                   {t("Support Center")}
                 </S.Large>
@@ -67,7 +67,7 @@ const Footer = ({ t }) => {
             </Row>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Empty />
+                {/* <S.Empty /> */}
                 <S.Language>{t("ADDRESS")}</S.Language>
                 <S.Para>22-24 Rue Rodier</S.Para>
                 <S.Para>Paris 75009</S.Para>

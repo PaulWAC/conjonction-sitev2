@@ -76,7 +76,7 @@ export const Large = styled(Link)`
   font-size: 16px;
   color: rgba(2, 7, 62, 0.8);
   text-align: ${(props) => (props.left ? 'left' : '')};
-  padding: ${(props) => (props.left ? '0 10%' : '')};
+  // padding: ${(props) => (props.left ? '0 10%' : '')};
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   // text-transform: capitalize;
@@ -110,7 +110,7 @@ export const Empty = styled.div`
 export const FooterContainer = styled.div`
   max-width: 510px;
   // width: 100%;
-  margin-right:50px;
+  margin-right:100px;
   display: flex;
   justify-content: space-between;
 
