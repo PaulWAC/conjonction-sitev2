@@ -90,7 +90,10 @@ const Home = () => {
       />
       <ContactFrom
         title={ContactContent.title}
-        content={ContactContent.text}
+        text_start={ContactContent.text_start}
+        highlight={ContactContent.highlight}
+        highlight2={ContactContent.highlight2}
+        text_end={ContactContent.text_end}
         id="contact"
       />
     </Container>

@@ -98,7 +98,7 @@ const Styles = createGlobalStyle`
         
     .realistic-marker-highlight:before{
         content:"";
-        background-color:#ffec09;
+        background-color:rgb(9 187 255 / 30%);
         width:105%;
         height:1em;
         position:absolute;
@@ -112,7 +112,7 @@ const Styles = createGlobalStyle`
 
     .realistic-marker-highlight-title:before{
         content:"";
-        background-color:#ffec09;
+        background-color:rgb(9 187 255 / 30%);
         width:98%;
         height:3em;
         position:absolute;

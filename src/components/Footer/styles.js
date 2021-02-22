@@ -79,7 +79,7 @@ export const Large = styled(Link)`
   padding: ${(props) => (props.left ? '0 10%' : '')};
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  text-transform: capitalize;
+  // text-transform: capitalize;
   line-height: 24px;
   display: block;
   margin-bottom: 0.625rem;
@@ -109,7 +109,8 @@ export const Empty = styled.div`
 
 export const FooterContainer = styled.div`
   max-width: 510px;
-  width: 100%;
+  // width: 100%;
+  margin-right:50px;
   display: flex;
   justify-content: space-between;
 
@@ -127,6 +128,10 @@ export const FooterContainer = styled.div`
     &:hover {
       fill: rgb(255, 130, 92);
     }
+  }
+
+  a {
+    padding:10px;
   }
 `;
 

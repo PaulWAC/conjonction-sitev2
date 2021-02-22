@@ -10,8 +10,9 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
   return (
     <S.LeftContentBlock>
       <Row type="flex" justify="space-between" align="middle" id={id}>
-        <Col lg={11} md={11} sm={12} xs={24} className="left-bg">
+        <Col lg={11} md={11} sm={12} xs={24}>
           <Slide left>
+            <div className="left-bg"></div>
             {/* <SvgIcon
               src={icon}
               className="about-block-image"

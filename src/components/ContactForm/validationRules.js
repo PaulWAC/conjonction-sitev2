@@ -1,15 +1,15 @@
 export default function validate(values) {
   let errors = {};
   if (!values.name) {
-    errors.name = "Name is required";
+    errors.name = "Le nom est obligatoire";
   }
   if (!values.email) {
-    errors.email = "Email address is required";
+    errors.email = "L'adresse e-mail est obligatoire";
   } else if (!/\S+@\S+\.\S+/.test(values.email)) {
-    errors.email = "Email address is invalid";
+    errors.email = "L'adresse e-mail est invalide";
   }
   if (!values.message) {
-    errors.message = "Message is required";
+    errors.message = "Le message est obligatoire";
   }
   return errors;
 }

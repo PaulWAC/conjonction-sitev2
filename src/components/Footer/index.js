@@ -42,7 +42,7 @@ const Footer = ({ t }) => {
                     `Do you have any question regarding the project? Feel free to reach out.`
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
+                <a href="mailto:contact@conjonction.com">
                   <S.Chat>{t(`Let's Chat`)}</S.Chat>
                 </a>
               </Col>
@@ -81,12 +81,12 @@ const Footer = ({ t }) => {
                 <S.Large left="true" to="/">
                   {t("Blog")}
                 </S.Large>
-                <S.Large left="true" to="/">
+                {/* <S.Large left="true" to="/">
                   {t("Press")}
                 </S.Large>
                 <S.Large left="true" to="/">
                   {t("Careers & Culture")}
-                </S.Large>
+                </S.Large> */}
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
@@ -96,8 +96,9 @@ const Footer = ({ t }) => {
                     value={i18n.language}
                     id="select-lang"
                   >
+                    <option value="fr">Français</option>
                     <option value="en">English</option>
-                    <option value="es">Español</option>
+                    {/* <option value="es">Español</option> */}
                   </S.LangSelect>
                 </S.Select>
               </Col>
@@ -123,26 +124,26 @@ const Footer = ({ t }) => {
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
-                <SocialLink
+                {/* <SocialLink
                   href="https://github.com/Adrinlol/create-react-app-adrinlol"
                   src="github.svg"
-                />
-                <SocialLink
+                /> */}
+                {/* <SocialLink
                   href="https://twitter.com/Adrinlolx"
                   src="twitter.svg"
-                />
+                /> */}
                 <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
+                  href="https://fr.linkedin.com/company/conjonction1"
                   src="linkedin.svg"
                 />
                 <SocialLink
                   href="https://github.com/Adrinlol/"
                   src="instagram.svg"
                 />
-                <SocialLink
+                {/* <SocialLink
                   href="https://medium.com/@lashakakabadze/"
                   src="medium.svg"
-                />
+                /> */}
               </S.FooterContainer>
             </Row>
           </Container>
