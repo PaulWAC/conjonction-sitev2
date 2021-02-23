@@ -33,5 +33,4 @@ i18n
     ns: ["translations"],
     defaultNS: "translations",
   });
-
 export default i18n;

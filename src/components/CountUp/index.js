@@ -17,36 +17,36 @@ export default function CountUpNumbers() {
                 </Fade>
             </Col>
         </Row>
-                    <Fade left>
-        <S.NumbersBlock>
-            <Row type="flex" justify="space-between" align="middle">
-                <Col lg={8} md={8} sm={8} xs={24}>
-                        <S.TagItem>Années d'expertise en investissement immobilier</S.TagItem>
-                        <div className="realistic-marker-highlight-title highlight-marker-mobile">
+        <Fade left>
+            <S.NumbersBlock>
+                <Row type="flex" justify="space-between" align="middle">
+                    <Col lg={8} md={8} sm={8} xs={24}>
+                            <S.TagItem>Années d'expertise en investissement immobilier</S.TagItem>
+                            <div className="realistic-marker-highlight-title highlight-marker-mobile">
+                                <S.CountUpTag>
+                                    <CountUp end={25} delay={2}/>
+                                </S.CountUpTag>
+                            </div>
+                    </Col>
+                    <Col lg={8} md={8} sm={8} xs={24}>
+                        <S.TagItem>Nombre de biens revitalisés</S.TagItem>
+                        <div className="realistic-marker-highlight-title">
                             <S.CountUpTag>
-                                <CountUp end={25} delay={2}/>
+                                <CountUp end={120} delay={2}/>
                             </S.CountUpTag>
                         </div>
-                </Col>
-                <Col lg={8} md={8} sm={8} xs={24}>
-                    <S.TagItem>Nombre de biens revitalisés</S.TagItem>
-                    <div className="realistic-marker-highlight-title">
-                        <S.CountUpTag>
-                            <CountUp end={120} delay={2}/>
-                        </S.CountUpTag>
-                    </div>
-                </Col>
-                <Col lg={8} md={8} sm={8} xs={24}>
-                    <S.TagItem>Villes d'implantations</S.TagItem>
-                    <div className="realistic-marker-highlight-title">
-                        <S.CountUpTag>
-                            <CountUp end={3} delay={2}/>
-                        </S.CountUpTag>
-                    </div>
-                </Col>            
-            </Row>
-        </S.NumbersBlock>    
-                    </Fade>
+                    </Col>
+                    <Col lg={8} md={8} sm={8} xs={24}>
+                        <S.TagItem>Villes d'implantations</S.TagItem>
+                        <div className="realistic-marker-highlight-title">
+                            <S.CountUpTag>
+                                <CountUp end={3} delay={2}/>
+                            </S.CountUpTag>
+                        </div>
+                    </Col>            
+                </Row>
+            </S.NumbersBlock>    
+        </Fade>
         </S.CountUpBlock>
     );
 }

@@ -4,6 +4,11 @@ const routes = [
     exact: true,
     component: "Home",
   },
+  {
+    path: ["/incubateur", "/incubateur"],
+    exact: true,
+    component: "Incubateur",
+  },
 ];
 
 export default routes;
