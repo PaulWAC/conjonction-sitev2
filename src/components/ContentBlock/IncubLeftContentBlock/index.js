@@ -11,14 +11,17 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
     <S.LeftContentBlock>
       <Row type="flex" justify="space-between" align="middle" id={id}>
         <Col lg={11} md={11} sm={12} xs={24}>
-          <Slide left>
-            <a href="/incubateur"><SvgIcon
-              src={icon}
-              className="about-block-image"
-              width="100%"
-              height="100%"
-            /></a>
-          </Slide>
+          
+            <a href="/incubateur">
+            <Slide left>
+              <SvgIcon
+                src={icon}
+                className="about-block-image"
+                width="100%"
+                height="100%"
+              />
+            </Slide>
+            </a>
         </Col>
         <Col lg={11} md={11} sm={11} xs={24}>
           <Slide right>
