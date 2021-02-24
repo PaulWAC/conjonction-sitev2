@@ -48,6 +48,9 @@ export default function IsotopeReact() {
             <li onClick={() => setFilterKey("collectivites")}><a className={filterKey === "collectivites" ? "active-link":""}>Collectivités</a></li>
             <li onClick={() => setFilterKey("divers")}><a className={filterKey === "divers" ? "active-link":""}>Divers</a></li>
           </ul>
+          <S.BackBlock>
+            <S.BackLink href="/">Retour vers l'accueil</S.BackLink>
+          </S.BackBlock>
           <div className="clearfix"></div>
         </div>
         <Slide left>

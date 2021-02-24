@@ -42,7 +42,7 @@ export const Title = styled.h4`
     font-size: 1.3125rem;
     font-weight: 700;
     letter-spacing: -0.5px;
-    line-height: 1;Ò
+    line-height: 1;
 `;
 
 export const Link = styled.a`
@@ -50,6 +50,21 @@ export const Link = styled.a`
     color: #000;
     &:hover{
         color:#085585;
+    }
+`;
+
+export const BackBlock = styled.div`
+    float: right;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(8, 85, 133);
+`;
+
+export const BackLink = styled.a`
+    color:#FFF;
+    &:hover{
+        color:#5ccaff;
     }
 `;
 

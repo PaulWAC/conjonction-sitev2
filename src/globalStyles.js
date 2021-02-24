@@ -177,8 +177,9 @@ const Styles = createGlobalStyle`
     // Incubateur Masonry & Isotope
 
     .filter-buttons{
+        float:left;
         list-style:none;
-        display:flex;
+        display:inline-flex;
         padding-left: 0;
         margin-bottom: 0;
     }
