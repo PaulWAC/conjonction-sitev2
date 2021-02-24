@@ -2,14 +2,14 @@ import { lazy } from "react";
 
 const Container = lazy(() => import("../../common/Container"));
 const Isotope = lazy(() => import("../../components/Isotope"));
+const Isotopee = lazy(() => import("../../components/Isotopee"));
 
 
 const Incubateur = () => {
     return (
-        <Container>
-            <h6>@ L'incubateur urbain</h6>
-            <Isotope/>
-        </Container>
+        <>
+            <Isotopee/>
+        </>
     );
 };
 

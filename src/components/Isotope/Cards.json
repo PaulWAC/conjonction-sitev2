@@ -1,6 +1,6 @@
 [
   {
-    "id": "a",
+    "id": "Simplicité",
     "row": 0,
     "col": 0,
     "w": 1,
@@ -10,7 +10,7 @@
   {
     "id": "b",
     "row": 0,
-    "col": 1,
+    "col": 2,
     "w": 1,
     "h": 1,
     "filter": ["test1", "tile"]
@@ -20,7 +20,7 @@
     "row": 0,
     "col": 3,
     "w": 1,
-    "h": 1,
+    "h": 2,
     "filter": ["test", "chart"]
   },
   {

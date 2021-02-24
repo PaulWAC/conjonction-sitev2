@@ -68,9 +68,17 @@ const Styles = createGlobalStyle`
             color: #2e186a;
         }
     }
+
+    img{
+        height:100%;
+    }
     
     *:focus {
         outline: none;
+    }
+
+    .position-relative {
+        position: relative!important;
     }
 
     .about-block-image svg {
@@ -90,6 +98,25 @@ const Styles = createGlobalStyle`
     .ant-notification-notice-icon-success {
         color: rgb(255,130,92);
     }
+
+    // Custom container & container-fluid
+    // .container{
+    //     position: relative;
+    //     width: 100%;
+    //     max-width: 1280px;
+    //     padding-right: 25px;
+    //     padding-left: 25px;
+    //     margin-right: auto;
+    //     margin-left: auto;
+    // }
+
+    // .container-fluid{
+    //     width: 100%;
+    //     padding-right: 15px;
+    //     padding-left: 15px;
+    //     margin-right: auto;
+    //     margin-left: auto;
+    // }
 
     // Custom Marker Highlight
     .realistic-marker-highlight{
@@ -145,6 +172,81 @@ const Styles = createGlobalStyle`
         background-size: cover;
         background-position: bottom center;
         height: 44pc;
+    }
+
+    // Incubateur Masonry & Isotope
+
+    .filter-buttons{
+        list-style:none;
+        display:flex;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .filter-buttons li{
+        cursor: pointer;
+        padding: 0px 1rem;
+        margin:50px 0;
+    }
+
+    .filter-buttons li > a{
+        text-transform:uppercase;
+        font-weight:bold;
+        color:#797979;
+        font-size: 14pt;
+    }
+
+    .filter-buttons li > a.active-link{
+        color:#085585;
+    }
+
+    .filter-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .w-100{
+        width:100%;
+    }
+
+    .workCard{
+        box-sizing: border-box;
+        min-width: 0px;
+        margin-bottom: 30px;
+    }
+
+    .workCard:hover .item-desc{
+        bottom: 20px;
+        opacity: 1;
+    }
+
+    .img1{
+        background:red;
+        width:330px;
+        height:200px;
+    }
+    .size1{
+        height:200px;
+    }
+    .size2{
+        height:400px;
+    }
+
+    .size3{
+        height:280px;
+    }
+    .img2{
+        background:blue;
+        width:330px;
+        height:400px;
+    }
+    .img3{
+        background:blue;
+        width:330px;
+        height:280px;
+        background:purple;
     }
 `;
 
