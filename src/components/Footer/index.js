@@ -136,10 +136,10 @@ const Footer = ({ t }) => {
                   href="https://fr.linkedin.com/company/conjonction1"
                   src="linkedin.svg"
                 />
-                <SocialLink
+                {/* <SocialLink
                   href="https://github.com/Adrinlol/"
                   src="instagram.svg"
-                />
+                /> */}
                 {/* <SocialLink
                   href="https://medium.com/@lashakakabadze/"
                   src="medium.svg"

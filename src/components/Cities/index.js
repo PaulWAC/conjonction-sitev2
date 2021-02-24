@@ -27,14 +27,14 @@ const CitiesBlock = ({ icon, t, id, ville, ville2, ville3, ville_description, vi
                             <S.TextRight>{ville_description}</S.TextRight>  
                         </S.ImgBlockLeft>
                     </Slide>
-                    {/* <Slide right>
+                    <Slide right>
                         <S.ImgBlockRight>
                             <S.TextLeft>{ville2_description}</S.TextLeft>
                             <S.ImgItem2>
                                 <S.TextRightIn>{ville2}</S.TextRightIn>
                             </S.ImgItem2>
                         </S.ImgBlockRight>
-                    </Slide> */}
+                    </Slide>
                     <Slide left>
                         <S.ImgBlockBoth>
                             <S.ImgItem3>

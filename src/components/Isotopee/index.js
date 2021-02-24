@@ -1,5 +1,7 @@
 import React from "react";
 import Isotope from 'isotope-layout';
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 import * as S from "./styles";
 
@@ -38,7 +40,7 @@ export default function IsotopeReact() {
   
     return (
       <S.Isotope>
-        <div className="container">
+        <div className="container-fluid">
           <ul className="filter-buttons">
             <li onClick={() => setFilterKey("*")}><a className={filterKey === "*" ? "active-link":""}>Tous les projets</a></li>
             <li onClick={() => setFilterKey("commercants")}><a className={filterKey === "commercants" ? "active-link":""}>Commerçants</a></li>
@@ -48,11 +50,12 @@ export default function IsotopeReact() {
           </ul>
           <div className="clearfix"></div>
         </div>
+        <Slide left>
         <div className="container-fluid">
           <div className="filter-container">
             <S.Item className="filter-item commercants col-lg-3 col-md-4 col-sm-6">
                   <div className="size1 workCard position-relative">
-                    <a href="/">
+                    <a href="/incubateur/nos-commerces">
                       <img src="/img/jpg/e-commerce.jpg" className="w-100"/>
                     </a>
                     <S.ItemDesc className="item-desc">
@@ -87,20 +90,20 @@ export default function IsotopeReact() {
               </div>
             </S.Item>
             <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
-              <div className="size1 workCard position-relative">
-                <a href="/">
-                  <img src="/img/jpg/architecture.jpg" className="w-100"/>
-                </a>
-                <S.ItemDesc className="item-desc">
-                  <S.Para>Technologie</S.Para>
-                  <S.Title><S.Link href="https://nos-commerces.com">OCR</S.Link></S.Title>
-                </S.ItemDesc>
-                  {/* <span>Cucumber</span> */}
-              </div>    
+                  <div className="size2 workCard position-relative">
+                    <a href="/">
+                      <img src="/img/jpg/mur-rouge.jpg" className="w-100"/>
+                    </a>
+                    <S.ItemDesc className="item-desc">
+                      <S.Para>Collectivités</S.Para>
+                      <S.Title><S.Link href="https://nos-commerces.com">Vie de quartier</S.Link></S.Title>
+                    </S.ItemDesc>
+                      {/* <span>Cucumber</span> */}
+                  </div>
             </S.Item>
             <S.Item className="filter-item collectivites col-lg-3 col-md-4 col-sm-6">
                   <div className="size3 workCard position-relative">
-                    <a href="/">
+                    <a href="/incubateur/restauration">
                       <img src="/img/jpg/bar.jpg" className="w-100"/>
                     </a>
                     <S.ItemDesc className="item-desc">
@@ -134,8 +137,21 @@ export default function IsotopeReact() {
                       {/* <span>Cucumber</span> */}
                   </div>
             </S.Item>
+            <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
+              <div className="size1 workCard position-relative">
+                <a href="/">
+                  <img src="/img/jpg/architecture.jpg" className="w-100"/>
+                </a>
+                <S.ItemDesc className="item-desc">
+                  <S.Para>Technologie</S.Para>
+                  <S.Title><S.Link href="https://nos-commerces.com">OCR</S.Link></S.Title>
+                </S.ItemDesc>
+                  {/* <span>Cucumber</span> */}
+              </div>    
+            </S.Item>
           </div>
         </div>
+        </Slide>
       </S.Isotope>
     );
   }
