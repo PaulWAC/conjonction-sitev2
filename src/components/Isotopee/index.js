@@ -53,8 +53,8 @@ export default function IsotopeReact() {
           </S.BackBlock>
           <div className="clearfix"></div>
         </div>
+        <Fade bottom>
         <div className="container-fluid">
-        <Slide left>
           <div className="filter-container">
             <S.Item className="filter-item commercants col-lg-3 col-md-4 col-sm-6">
                   <div className="size1 workCard position-relative">
@@ -153,8 +153,8 @@ export default function IsotopeReact() {
               </div>    
             </S.Item>
           </div>
-        </Slide>
         </div>
+        </Fade>
       </S.Isotope>
     );
   }
