@@ -1,5 +1,5 @@
 {
-    "About": "A propos de",
+    "About": "La foncière",
     "Policy": "Mentions légales",
     "Mission": "Notre stratégie d'investissement",
     "Product": "L'incubateur",
@@ -25,6 +25,7 @@
     "Name" : "Nom",
     "Your Name": "Votre nom",
     "Email" : "Email",
-    "Your Email": "Votre email"
+    "Your Email": "Votre email",
+    "Blog":"Blog"
   }
   

@@ -26,9 +26,10 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
               <S.Content>{t(content)}</S.Content>
-              <S.Content>{t(content_start)}<span className="realistic-marker-highlight">{t(highlight)}</span>{t(content_end)}</S.Content>
+              <S.Content className="mb-0">{t(content_start)}<span className="realistic-marker-highlight d-inline-block">{t(highlight)}</span></S.Content>
+              <S.Content className="mt-0">{t(content_end)}</S.Content>
               <h6>{t(title2)}</h6>
-              <S.Content2>{t(content2_start)}<span className="realistic-marker-highlight">{t(highlight2)}</span>{t(content2_end)}</S.Content2>
+              <S.Content2>{t(content2_start)}<span className="realistic-marker-highlight d-inline-block">{t(highlight2)}</span>{t(content2_end)}</S.Content2>
               <S.Content3><span className="realistic-marker-highlight">{t(highlight3)}</span>{t(content2_end2)}</S.Content3>
               <S.ServiceWrapper>
                 <Row type="flex" justify="space-between">

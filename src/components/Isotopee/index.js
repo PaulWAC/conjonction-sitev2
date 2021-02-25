@@ -40,7 +40,7 @@ export default function IsotopeReact() {
   
     return (
       <S.Isotope>
-        <div className="container-fluid">
+        <div className="container-fluid text-center">
           <ul className="filter-buttons">
             <li onClick={() => setFilterKey("*")}><a className={filterKey === "*" ? "active-link":""}>Tous les projets</a></li>
             <li onClick={() => setFilterKey("commercants")}><a className={filterKey === "commercants" ? "active-link":""}>Commerçants</a></li>
@@ -48,9 +48,9 @@ export default function IsotopeReact() {
             <li onClick={() => setFilterKey("collectivites")}><a className={filterKey === "collectivites" ? "active-link":""}>Collectivités</a></li>
             <li onClick={() => setFilterKey("divers")}><a className={filterKey === "divers" ? "active-link":""}>Divers</a></li>
           </ul>
-          <S.BackBlock>
-            <span><S.BackLink href="/">Contactez-nous</S.BackLink></span>
-          </S.BackBlock>
+          {/* <S.BackBlock>
+            <span><S.BackLink href="/">Retour</S.BackLink></span>
+          </S.BackBlock> */}
           <div className="clearfix"></div>
         </div>
         <Fade bottom>

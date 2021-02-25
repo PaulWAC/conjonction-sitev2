@@ -3,6 +3,7 @@ import { Switch, Route, withRouter } from "react-router-dom";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import HeaderIncubateur from "../components/HeaderIncubateur";
 
 import routes from "./config";
 import GlobalStyles from "../globalStyles";
@@ -13,6 +14,9 @@ const Router = withRouter(({ location }) => {
       <GlobalStyles />
       {
         location.pathname == "/" && <Header />
+      }
+      {
+        location.pathname !== "/" && <HeaderIncubateur/>
       }
       <Switch>
         {routes.map((routeItem) => {
