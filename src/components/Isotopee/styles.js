@@ -55,17 +55,26 @@ export const Link = styled.a`
 
 export const BackBlock = styled.div`
     float: right;
-    margin: 40px;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: rgb(8, 85, 133);
+    width:180px;
+    // margin: 40px;
+    // padding: 10px;
+    // border-radius: 30px;
+    // background-color: rgb(8, 85, 133);
 `;
 
-export const BackLink = styled.a`
-    color:#FFF;
-    &:hover{
-        color:#5ccaff;
-    }
+export const BackLink = styled.button`
+    background: rgb(8, 85, 133);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    border: 0px;
+    border-radius: 8px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0.625rem;
+    max-width: 180px;
 `;
 
 export const Isotope = styled.div`

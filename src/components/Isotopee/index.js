@@ -49,12 +49,12 @@ export default function IsotopeReact() {
             <li onClick={() => setFilterKey("divers")}><a className={filterKey === "divers" ? "active-link":""}>Divers</a></li>
           </ul>
           <S.BackBlock>
-            <S.BackLink href="/">Retour vers l'accueil</S.BackLink>
+            <span><S.BackLink href="/">Contactez-nous</S.BackLink></span>
           </S.BackBlock>
           <div className="clearfix"></div>
         </div>
-        <Slide left>
         <div className="container-fluid">
+        <Slide left>
           <div className="filter-container">
             <S.Item className="filter-item commercants col-lg-3 col-md-4 col-sm-6">
                   <div className="size1 workCard position-relative">
@@ -153,8 +153,8 @@ export default function IsotopeReact() {
               </div>    
             </S.Item>
           </div>
-        </div>
         </Slide>
+        </div>
       </S.Isotope>
     );
   }
