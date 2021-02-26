@@ -99,24 +99,12 @@ const Styles = createGlobalStyle`
         color: rgb(255,130,92);
     }
 
-    // Custom container & container-fluid
-    // .container{
-    //     position: relative;
-    //     width: 100%;
-    //     max-width: 1280px;
-    //     padding-right: 25px;
-    //     padding-left: 25px;
-    //     margin-right: auto;
-    //     margin-left: auto;
-    // }
 
-    // .container-fluid{
-    //     width: 100%;
-    //     padding-right: 15px;
-    //     padding-left: 15px;
-    //     margin-right: auto;
-    //     margin-left: auto;
-    // }
+    // Custom timeline
+
+    .ant-timeline{
+        margin-top:4em;
+    }
 
     // Custom Marker Highlight
     .realistic-marker-highlight{
