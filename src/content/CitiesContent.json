@@ -1,8 +1,17 @@
 {
     "ville":"Nevers",
-    "ville_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "highlight":"Coeur de cible ",
+    "ville_description":"de l'action de Conjonction, sa morphologie, sa densité et son identité territoriale fait de cette Ville Médiane, un aspect idéal pour explorer les nouvelles formes ",
+    "highlight2":"d'investissement à ",
+    "highlight3":"impact.",
     "ville2":"Nantes",
-    "ville2_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "ville3":"Paris",
-    "ville3_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "ville2_description":"En investissant il y'a 15 ans sur Nantes, Marc a vu ",
+    "highlight4":"la Ville mûter au grès du temps.",
+    "ville2_description2":"Conjonction y a ainsi noué de nombreux ",
+    "highlight5":"partenariats ",
+    "ville2_description3":"avec à la fois des experts locaux mais aussi des commerçants.",
+    "ville3":"France entière",
+    "ville3_description":"Le patrimoine de Conjonction s'étend aussi en Île-de-France, en Bretagne, Charente.. là où nous avons ",
+    "highlight6":"un impact positif.",
+    "ville3_description2":" nous investissons."
 }

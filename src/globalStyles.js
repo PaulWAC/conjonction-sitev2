@@ -247,6 +247,12 @@ const Styles = createGlobalStyle`
     .not-allowed{
         cursor:not-allowed;
     }
+
+    // Carousel Villes
+
+    .ant-carousel .slick-dots li button{
+        background-color:#000 !important;
+    }
 `;
 
 export default Styles;

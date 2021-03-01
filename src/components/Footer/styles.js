@@ -173,3 +173,15 @@ export const LangSelect = styled.select`
   font-size: 1rem;
   background: rgb(249, 250, 252);
 `;
+
+export const BlogLink = styled.a`    
+    font-size: 16px;
+    color: rgba(2,7,62,0.8);
+    text-align: left;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 0.625rem;
+`;

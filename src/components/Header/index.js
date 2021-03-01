@@ -41,7 +41,7 @@ const Header = ({ t }) => {
           <S.Span>{t("Product")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall>
-          <S.Span>{t("Blog")}</S.Span>
+          <S.Span><a href="https://conjonction.com/blog/" target="_blank">{t("Blog")}</a></S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}

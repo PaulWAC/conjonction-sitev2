@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <ContentBlock
+      {/* <ContentBlock
         type="intro"
         first="true"
         title={IntroContent.title}
@@ -34,12 +34,13 @@ const Home = () => {
         button={IntroContent.button}
         icon="developer.svg"
         id="intro"
-      />
-      {/* <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
       /> */}
+      <MiddleBlock
+        title={IntroContent.title}
+        content={IntroContent.text}
+        highlight={IntroContent.highlight}
+        id="intro"
+      />
       <Timeline/>
       <CountUp/>
       <ContentBlock
@@ -73,11 +74,20 @@ const Home = () => {
       <CitiesBlock
         type="city"
         ville={CitiesContent.ville}
+        highlight={CitiesContent.highlight}
         ville_description={CitiesContent.ville_description}
+        highlight2={CitiesContent.highlight2}
+        highlight3={CitiesContent.highlight3}
         ville2={CitiesContent.ville2}
         ville2_description={CitiesContent.ville2_description}
+        ville2_description2={CitiesContent.ville2_description2}
+        ville2_description3={CitiesContent.ville2_description3}
+        highlight4={CitiesContent.highlight4}
+        highlight5={CitiesContent.highlight5}
         ville3={CitiesContent.ville3}
+        highlight6={CitiesContent.highlight6}
         ville3_description={CitiesContent.ville3_description}
+        ville3_description2={CitiesContent.ville3_description2}
         icon="product-launch.svg"
       />
       <ContentBlock
