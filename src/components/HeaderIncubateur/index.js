@@ -1,5 +1,5 @@
 import { useState, Fragment, lazy } from "react";
-import { Row, Col, Drawer } from "antd";
+import { Row, Col, Drawer,Modal} from "antd";
 import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
 
@@ -7,6 +7,8 @@ import * as S from "./styles";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Button = lazy(() => import("../../common/Button"));
+
+const ContactBlock = lazy(() => import("../../components/ContactBlock"));
 
 const Header = ({ t }) => {
     const [isNavVisible] = useState(false);
@@ -29,6 +31,19 @@ const Header = ({ t }) => {
         });
         setVisibility(false);
       };
+      const [isModalVisible, setIsModalVisible] = useState(false);
+
+      const showModal = () => {
+        setIsModalVisible(true);
+      };
+
+      const handleOk = () => {
+        setIsModalVisible(false);
+      };
+
+      const handleCancel = () => {
+        setIsModalVisible(false);
+      };
       return (
         <Fragment>
           {/* <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
@@ -45,8 +60,11 @@ const Header = ({ t }) => {
             onClick={() => scrollTo("contact")}
           > */}
             <S.Span>
-              <Button>{t("Contact")}</Button>
+              <Button onClick={showModal}>{t("Contact")}</Button>
             </S.Span>
+            <Modal title="Formulaire de contact" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+              <ContactBlock/>
+            </Modal>
           {/* </S.CustomNavLinkSmall> */}
         </Fragment>
       );
