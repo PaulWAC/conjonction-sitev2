@@ -9,6 +9,7 @@ import ContactContent from "../../content/ContactContent.json";
 
 // Custom Content
 import CitiesContent from "../../content/CitiesContent.json";
+import PartenairesContent from "../../content/PartenairesContent.json";
 
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -20,6 +21,7 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const Timeline = lazy(() => import("../../components/Timeline"));
 const CountUp = lazy(() => import("../../components/CountUp"));
 const CitiesBlock = lazy(() => import("../../components/Cities"));
+const Partenaires = lazy(() => import("../../components/Partenaires"));
 
 const Home = () => {
   return (
@@ -97,6 +99,9 @@ const Home = () => {
         highlight={ProductContent.highlight}
         icon="waving.svg"
         id="product"
+      />
+      <Partenaires 
+        title={PartenairesContent.title}
       />
       <ContactFrom
         title={ContactContent.title}

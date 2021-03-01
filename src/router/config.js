@@ -28,6 +28,11 @@ const routes = [
     path: "/mentions-legales",
     exact: true,
     component: "Mentions"
+  },
+  {
+    path: "/nos-partenaires",
+    exact: true,
+    component: "Partenaires"
   }
 ];
 
