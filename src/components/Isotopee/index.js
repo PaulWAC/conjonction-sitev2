@@ -63,7 +63,7 @@ export default function IsotopeReact() {
                     </a>
                     <S.ItemDesc className="item-desc">
                       <S.Para>Web</S.Para>
-                      <S.Title><S.Link href="https://nos-commerces.com/">nos-commerces.com</S.Link></S.Title>
+                      <S.Title><S.Link href="https://nos-commerces.com/" target="_blank">nos-commerces.com</S.Link></S.Title>
                     </S.ItemDesc>
                       
                   </div>
@@ -88,7 +88,7 @@ export default function IsotopeReact() {
                 </a>
                 <S.ItemDesc className="item-desc">
                   <S.Para>Immobilier</S.Para>
-                  <S.Title><S.Link href="https://app.conjonction.com">Simplicité</S.Link></S.Title>
+                  <S.Title><S.Link href="https://app.conjonction.com" target="_blank">Simplicité</S.Link></S.Title>
                 </S.ItemDesc>
               </div>
             </S.Item>
@@ -112,7 +112,7 @@ export default function IsotopeReact() {
                     </a>
                     <S.ItemDesc className="item-desc">
                       <S.Para>Web</S.Para>
-                      <S.Title><S.Link href="https://nos-commerces.com">Plateforme restauration</S.Link></S.Title>
+                      <S.Title><S.Link href="https://restauration.herokuapp.com/" target="_blank">Plateforme restauration</S.Link></S.Title>
                     </S.ItemDesc>
                   </div>
             </S.Item>

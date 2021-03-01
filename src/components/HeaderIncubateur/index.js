@@ -55,17 +55,13 @@ const Header = ({ t }) => {
           <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
             <S.Span>{t("Product")}</S.Span>
           </S.CustomNavLinkSmall>
-          <S.CustomNavLinkSmall
-            style={{ width: "180px" }}
-            onClick={() => scrollTo("contact")}
-          > */}
+          */} 
             <S.Span>
               <Button onClick={showModal}>{t("Contact")}</Button>
             </S.Span>
-            <Modal title="Formulaire de contact" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+            <Modal title="Formulaire de contact" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} footer={null} > 
               <ContactBlock/>
             </Modal>
-          {/* </S.CustomNavLinkSmall> */}
         </Fragment>
       );
     };

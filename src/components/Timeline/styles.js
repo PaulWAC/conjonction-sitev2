@@ -12,3 +12,12 @@ export const Title = styled.div`
 export const TimelineContent = styled.p`
     font-size:11pt;
 `;
+
+export const TimeBlock = styled.div`
+    @media screen and (min-width: 768px) {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+`;

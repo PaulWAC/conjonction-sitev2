@@ -129,6 +129,7 @@ const Footer = ({ t }) => {
                   />
                 </S.LogoContainer>
               </S.NavLink>
+              <S.Para>© Conjonction Technologies 2021</S.Para>
               <S.FooterContainer>
                 {/* <SocialLink
                   href="https://github.com/Adrinlol/create-react-app-adrinlol"

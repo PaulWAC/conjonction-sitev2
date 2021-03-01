@@ -42,7 +42,7 @@ const Partenaires = ({ title, content, button, t, highlight }) => {
                         src="codenekt.png"
                     />
                     <Link to="/nos-partenaires">
-                        <Button type="link">Voir plus</Button>
+                        <S.ButtonLink type="link">Voir plus</S.ButtonLink>
                     </Link>
                 </Col>
             </Row>

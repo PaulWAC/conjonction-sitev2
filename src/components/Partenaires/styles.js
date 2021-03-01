@@ -15,3 +15,7 @@ export const PartenairesBlock = styled.section`
       margin:0 1em;
   }
 `;
+
+export const ButtonLink = styled.span`
+  color:#0a1f44;
+`;

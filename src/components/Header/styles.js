@@ -96,4 +96,7 @@ export const Outline = styled(MenuOutlined)`
 
 export const Span = styled.span`
   cursor: pointer;
+  a{
+    color:#000;
+  }
 `;

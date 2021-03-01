@@ -49,15 +49,15 @@ const Simplicite = () => {
                         <Image.PreviewGroup>
                             <Image
                                 width={200}
-                                src="/img/png/noscommerces1.png"
+                                src="/img/png/laptop2_conjonction_biens.png"
                             />
                             <Image
                                 width={200}
-                                src="/img/png/noscommerces2.png"
+                                src="/img/png/laptop2_conjonction_biens.png"
                             />
                             <Image
                                 width={200}
-                                src="/img/png/noscommerces3.png"
+                                src="/img/png/laptop2_conjonction_biens.png"
                             />
                            </Image.PreviewGroup>
                            </Col>

@@ -23,7 +23,7 @@ const Contact = ({ title, text_start, text_end, highlight, highlight2, content, 
           <Col lg={12} md={11} sm={24}>
             <Block padding={true} title={title} text_start={text_start} highlight={highlight} text_end={text_end} highlight2={highlight2}/>
           </Col>
-          <Col lg={12} md={12} sm={24}>
+          <Col lg={12} md={12} sm={24} xs={24}>
             <ContactBlock/>
           </Col>
         </Row>
