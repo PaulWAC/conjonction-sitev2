@@ -65,44 +65,45 @@ export default function IsotopeReact() {
                       <S.Para>Web</S.Para>
                       <S.Title><S.Link href="https://nos-commerces.com/">nos-commerces.com</S.Link></S.Title>
                     </S.ItemDesc>
-                      {/* <span>Cucumber</span> */}
+                      
                   </div>
             </S.Item>
             <S.Item className="filter-item immobilier col-lg-3 col-md-4 col-sm-6">
-                  <div className="size2 workCard position-relative">
-                    <a href="/">
-                      <img src="/img/jpg/architecture.jpg" className="w-100"/>
-                    </a>
-                    <S.ItemDesc className="item-desc">
-                      <S.Para>Immobiler</S.Para>
-                      <S.Title><S.Link href="https://app.conjonction.com/">Appels à projet</S.Link></S.Title>
-                    </S.ItemDesc>
-                      {/* <span>Apple</span> */}
-                  </div>    
+              <div className="not-allowed">
+                <div className="size2 workCard position-relative">
+                  {/* <a href="/"> */}
+                    <img src="/img/jpg/architecture.jpg" className="w-100"/>
+                  {/* </a> */}
+                  <S.ItemDesc className="item-desc">
+                    <S.Para>Immobiler</S.Para>
+                    <S.Title>Appels à projet</S.Title>
+                  </S.ItemDesc>
+                </div>
+              </div>    
             </S.Item>
             <S.Item className="filter-item commercants col-lg-3 col-md-4 col-sm-6">
               <div className=" size3 workCard position-relative">
-                <a href="/">
+                <a href="/incubateur/simplicite">
                   <img src="/img/jpg/office.jpg" className="w-100"/>
                 </a>
                 <S.ItemDesc className="item-desc">
                   <S.Para>Immobilier</S.Para>
-                  <S.Title><S.Link href="https://nos-commerces.com">Simplicité</S.Link></S.Title>
+                  <S.Title><S.Link href="https://app.conjonction.com">Simplicité</S.Link></S.Title>
                 </S.ItemDesc>
-                  {/* <span>Cucumber</span> */}
               </div>
             </S.Item>
             <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
-                  <div className="size2 workCard position-relative">
-                    <a href="/">
-                      <img src="/img/jpg/mur-rouge.jpg" className="w-100"/>
-                    </a>
-                    <S.ItemDesc className="item-desc">
-                      <S.Para>Collectivités</S.Para>
-                      <S.Title><S.Link href="https://nos-commerces.com">Vie de quartier</S.Link></S.Title>
-                    </S.ItemDesc>
-                      {/* <span>Cucumber</span> */}
-                  </div>
+              <div className="not-allowed">
+                <div className="size2 workCard position-relative">
+                  {/* <a href="/"> */}
+                    <img src="/img/jpg/mur-rouge.jpg" className="w-100"/>
+                  {/* </a> */}
+                  <S.ItemDesc className="item-desc">
+                    <S.Para>Collectivités</S.Para>
+                    <S.Title>Vie de quartier</S.Title>
+                  </S.ItemDesc>
+                </div>
+              </div>
             </S.Item>
             <S.Item className="filter-item collectivites col-lg-3 col-md-4 col-sm-6">
                   <div className="size3 workCard position-relative">
@@ -113,43 +114,45 @@ export default function IsotopeReact() {
                       <S.Para>Web</S.Para>
                       <S.Title><S.Link href="https://nos-commerces.com">Plateforme restauration</S.Link></S.Title>
                     </S.ItemDesc>
-                      {/* <span>Cucumber</span> */}
                   </div>
             </S.Item>
             <S.Item className="filter-item collectivites col-lg-3 col-md-4 col-sm-6">
+                <div className="not-allowed">
                   <div className="size3 workCard position-relative">
-                    <a href="/">
+                    {/* <a href="/"> */}
                       <img src="/img/jpg/office.jpg" className="w-100"/>
-                    </a>
+                    {/* </a> */}
                     <S.ItemDesc className="item-desc">
                       <S.Para>Web</S.Para>
-                      <S.Title><S.Link href="https://nos-commerces.com">Observatoire local du commerces</S.Link></S.Title>
+                      <S.Title>Observatoire local du commerces</S.Title>
                     </S.ItemDesc>
-                      {/* <span>Cucumber</span> */}
+                  </div>
+                </div>
+            </S.Item>
+            <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
+                  <div className="not-allowed">
+                    <div className="size3 workCard position-relative">
+                      {/* <a href="/"> */}
+                        <img src="/img/jpg/smartphone.jpg" className="w-100"/>
+                      {/* </a> */}
+                      <S.ItemDesc className="item-desc">
+                        <S.Para>Web</S.Para>
+                        <S.Title>Application rencontre entre investisseurs</S.Title>
+                      </S.ItemDesc>
+                    </div>
                   </div>
             </S.Item>
             <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
-                  <div className="size3 workCard position-relative">
-                    <a href="/">
-                      <img src="/img/jpg/smartphone.jpg" className="w-100"/>
-                    </a>
-                    <S.ItemDesc className="item-desc">
-                      <S.Para>Web</S.Para>
-                      <S.Title><S.Link href="https://nos-commerces.com">Application rencontre entre investisseurs</S.Link></S.Title>
-                    </S.ItemDesc>
-                      {/* <span>Cucumber</span> */}
-                  </div>
-            </S.Item>
-            <S.Item className="filter-item divers col-lg-3 col-md-4 col-sm-6">
-              <div className="size1 workCard position-relative">
-                <a href="/">
-                  <img src="/img/jpg/architecture.jpg" className="w-100"/>
-                </a>
-                <S.ItemDesc className="item-desc">
-                  <S.Para>Technologie</S.Para>
-                  <S.Title><S.Link href="https://nos-commerces.com">OCR</S.Link></S.Title>
-                </S.ItemDesc>
-                  {/* <span>Cucumber</span> */}
+              <div className="not-allowed">
+                <div className="size1 workCard position-relative">
+                  {/* <a href="/"> */}
+                    <img src="/img/jpg/architecture.jpg" className="w-100"/>
+                  {/* </a> */}
+                  <S.ItemDesc className="item-desc">
+                    <S.Para>Technologie</S.Para>
+                    <S.Title>OCR</S.Title>
+                  </S.ItemDesc>
+                </div>
               </div>    
             </S.Item>
           </div>

@@ -77,6 +77,11 @@ const Styles = createGlobalStyle`
         outline: none;
     }
 
+    .site-page-header {
+        margin:2em 0;
+        border: 1px solid rgb(235, 237, 240);
+    }
+
     .position-relative {
         position: relative!important;
     }
@@ -96,7 +101,7 @@ const Styles = createGlobalStyle`
 
     .anticon,
     .ant-notification-notice-icon-success {
-        color: rgb(255,130,92);
+        color: #085585;
     }
 
 
@@ -237,6 +242,10 @@ const Styles = createGlobalStyle`
         width:330px;
         height:280px;
         background:purple;
+    }
+
+    .not-allowed{
+        cursor:not-allowed;
     }
 `;
 

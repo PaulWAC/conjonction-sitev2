@@ -18,6 +18,16 @@ const routes = [
     path: "/incubateur/restauration",
     exact: true,
     component: "Restauration"
+  },
+  {
+    path: "/incubateur/simplicite",
+    exact: true,
+    component: "Simplicite"
+  },
+  {
+    path: "/mentions-legales",
+    exact: true,
+    component: "Mentions"
   }
 ];
 

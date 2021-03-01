@@ -33,7 +33,7 @@ const Footer = ({ t }) => {
       <Fade bottom>
         <S.Footer>
           <Container>
-            <Row type="flex" justify="space-between">
+            {/* <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Language>{t("Contact")}</S.Language>
                 <S.Large to="/">{t("Tell us everything")}</S.Large>
@@ -56,7 +56,7 @@ const Footer = ({ t }) => {
                 </S.Large>
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
-                {/* <S.Empty /> */}
+                <S.Empty />
                 <S.Large left="true" to="/">
                   {t("Support Center")}
                 </S.Large>
@@ -64,7 +64,7 @@ const Footer = ({ t }) => {
                   {t("Customer Support")}
                 </S.Large>
               </Col>
-            </Row>
+            </Row> */}
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
                 {/* <S.Empty /> */}
@@ -72,6 +72,9 @@ const Footer = ({ t }) => {
                 <S.Para>22-24 Rue Rodier</S.Para>
                 <S.Para>Paris 75009</S.Para>
                 <S.Para>France</S.Para>
+                <a href="mailto:contact@conjonction.com">
+                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
+                </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
@@ -80,6 +83,9 @@ const Footer = ({ t }) => {
                 </S.Large>
                 <S.Large left="true" to="/">
                   {t("Blog")}
+                </S.Large>
+                <S.Large to="/mentions-legales" left="true">
+                  {t("Application Security")}
                 </S.Large>
                 {/* <S.Large left="true" to="/">
                   {t("Press")}
