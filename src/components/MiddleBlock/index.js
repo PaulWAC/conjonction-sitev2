@@ -21,7 +21,7 @@ const MiddleBlock = ({ title, content, button, t, highlight, id }) => {
           <S.ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <h6 className="color-white">{t(title)}</h6>
-              <S.Content>{t(content)}<span className="realistic-marker-highlight">{t(highlight)}</span></S.Content>
+              <S.Content className="color-white">{t(content)}<span className="realistic-marker-highlight">{t(highlight)}</span></S.Content>
               {button ? (
                 <Button
                   name="submit"

@@ -27,3 +27,10 @@ export const ButtonWrapper = styled.div`
   justify-content: space-between;
   max-width: 400px;
 `;
+
+export const BackgroundTop = styled.div`
+  background: url(https://conjonction.com/storage/2019/09/first_background_nantes.png?id=8873);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+`;

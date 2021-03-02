@@ -122,7 +122,7 @@ const Footer = ({ t }) => {
               <S.NavLink to="/">
                 <S.LogoContainer>
                   <SvgIcon
-                    src="logo.svg"
+                    src="LogosVectorises-6-Conjonction-bleu.png"
                     aria-label="homepage"
                     width="101px"
                     height="64px"

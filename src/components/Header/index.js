@@ -44,11 +44,12 @@ const Header = ({ t }) => {
           <S.Span><a href="https://conjonction.com/blog/" target="_blank">{t("Blog")}</a></S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
-          style={{ width: "180px" }}
+        
+          style={{ width: "180px"}}
           onClick={() => scrollTo("contact")}
         >
           <S.Span>
-            <Button>{t("Contact")}</Button>
+            <Button background="#0e3750">{t("Contact")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>
@@ -60,7 +61,7 @@ const Header = ({ t }) => {
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
+            <SvgIcon src="LogosVectorises-6-Conjonction-blanc.png" width="234" height="64" />
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
@@ -90,6 +91,7 @@ const Header = ({ t }) => {
           </Drawer>
         </CSSTransition>
       </S.Container>
+      <S.BackgroundTop></S.BackgroundTop>
     </S.Header>
   );
 };

@@ -72,7 +72,7 @@ export const Menu = styled.h5`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1rem;
-  color: #000;
+  color: #FFF;
   transition: color 0.2s ease-in;
   margin: 0.25rem 2rem;
 
@@ -97,6 +97,18 @@ export const Outline = styled(MenuOutlined)`
 export const Span = styled.span`
   cursor: pointer;
   a{
-    color:#000;
+    color:#FFF;
   }
+`;
+
+export const BackgroundTop = styled.div`
+  background: url(https://conjonction.com/storage/2019/09/first_background_nantes.png?id=8873);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
 `;

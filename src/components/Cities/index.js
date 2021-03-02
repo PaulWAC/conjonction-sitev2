@@ -60,7 +60,7 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
             <Row type="flex" justify="space-between" align="middle">
                 <Col lg={24}>
                 <Slide left>
-                    <Carousel>
+                    <Carousel autoplay>
                         <div>
                             <S.ImgBlockLeft>
                                 <S.ImgItem1>
