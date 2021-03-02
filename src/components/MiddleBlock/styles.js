@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const MiddleBlock = styled.section`
   position: relative;
-  padding: 7.5rem 0 3rem;
+  padding: 10.5rem 0 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -14,6 +14,7 @@ export const MiddleBlock = styled.section`
 
 export const Content = styled.p`
   padding: 0.75rem 0 0.75rem;
+  color:#000;
 `;
 
 export const ContentWrapper = styled.div`

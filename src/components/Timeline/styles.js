@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TimelineBlock = styled.section`
 //   text-align:center;
-    padding: 0 0 8rem;
+    padding: 20em 0 8rem;
 `;
 
 export const Title = styled.div`

@@ -2,6 +2,29 @@ import { createGlobalStyle } from 'styled-components';
 
 const Styles = createGlobalStyle`
 
+    // #root{
+    //     background: url(https://conjonction.com/storage/2019/09/first_background_nantes.png?id=8873);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     height: 100%;
+    // }
+
+    // .color-white{
+    //     color:#FFF;
+    // }
+
+    // .iJEBHu .Tlvvi{
+    //     background:#123c5a;
+    // }
+
+    .cZsmHN{
+        color:#FFF;
+    }
+
+    .fHGEmU span{
+        color:#FFF;
+    }
+
     body,
     html,
     a {
@@ -44,7 +67,7 @@ const Styles = createGlobalStyle`
         color: #0a1f44;
         font-size: 2.575rem;
         line-height: 3.0625rem;
-        
+        font-weight:bold;
         @media only screen and (max-width: 414px) {
             font-size: 1.625rem;
           }
