@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const TimelineBlock = styled.section`
 //   text-align:center;
     padding: 20em 0 8rem;
+    @media screen and (min-width:1700px) {
+        padding: 40em 0 8rem;
+    }
 `;
 
 export const Title = styled.div`
