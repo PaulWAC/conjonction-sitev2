@@ -43,14 +43,12 @@ export const TextRight = styled.p`
     padding-top:2em;
 `;
 
-export const TextLeftFirst = styled.p`
+export const TextRight2 = styled.p`
     padding-top:2em;
-    text-align:right;
     margin:0;
 `;
 
-export const TextLeft = styled.p`
-    text-align:right;
+export const TextRight3 = styled.p`
     margin:0;
 `;
 
@@ -63,8 +61,8 @@ export const ImgItem2 = styled.div`
     border-radius: 50%;
     width: 250px;
     background-position: center;
-    float:right;
-    margin-left:60px;
+    float:left;
+    margin-right:60px;
 `;
 
 export const Text2 = styled.p`

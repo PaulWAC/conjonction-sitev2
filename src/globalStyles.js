@@ -103,6 +103,10 @@ const Styles = createGlobalStyle`
         padding-right: 2rem;
     }
 
+    .anticon-menu{
+        color:#FFF !important;
+    }
+
     .anticon,
     .ant-notification-notice-icon-success {
         color: #085585;

@@ -58,9 +58,9 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                 </Col>
             </Row> */}
             <Row type="flex" justify="space-between" align="middle">
-                <Col lg={24}>
+                <Col lg={24} md={24} sm={24} xs={24}>
                 <Slide left>
-                    <Carousel autoplay>
+                    <Carousel>
                         <div>
                             <S.ImgBlockLeft>
                                 <S.ImgItem1>
@@ -71,13 +71,11 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                         </div>
                         <div>
                             <S.ImgBlockRight>
-                                <S.BlockTextLeft>
-                                    <S.TextLeftFirst>{ville2_description}<span className="realistic-marker-highlight">{highlight4}</span></S.TextLeftFirst>
-                                    <S.TextLeft>{ville2_description2}<span className="realistic-marker-highlight">{highlight5}</span>{ville2_description3}</S.TextLeft>
-                                </S.BlockTextLeft>
                                 <S.ImgItem2>
                                     <S.TextRightIn>{ville2}</S.TextRightIn>
                                 </S.ImgItem2>
+                                <S.TextRight2>{ville2_description}<span className="realistic-marker-highlight">{highlight4}</span></S.TextRight2>
+                                <S.TextRight3>{ville2_description2}<span className="realistic-marker-highlight">{highlight5}</span>{ville2_description3}</S.TextRight3>
                             </S.ImgBlockRight>
                         </div>
                         <div>
