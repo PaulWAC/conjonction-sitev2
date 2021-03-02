@@ -126,7 +126,7 @@ const Styles = createGlobalStyle`
     .realistic-marker-highlight:before{
         content:"";
         background-color:rgb(9 187 255 / 30%);
-        width:105%;
+        width:100%;
         height:1em;
         position:absolute;
         z-index:-1;

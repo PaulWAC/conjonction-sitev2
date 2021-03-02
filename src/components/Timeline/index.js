@@ -17,7 +17,7 @@ export default function AlternateTimeline() {
                     <S.TimeBlock>
                         <Timeline mode="alternate">
                             <Timeline.Item><p><strong className="realistic-marker-highlight">2003</strong> Création de E3M</p></Timeline.Item>
-                            <Timeline.Item><p><strong className="realistic-marker-highlight">2018</strong> Lancement de l'incubateur de solution pour les acteurs de la Ville</p></Timeline.Item>
+                            <Timeline.Item><p><strong className="realistic-marker-highlight">2018</strong> Lancement de l'incubateur de solutions pour les acteurs de la Ville</p></Timeline.Item>
                             <Timeline.Item><p><strong className="realistic-marker-highlight">2019</strong> Création Conjonction - Foncière à impact responsable</p></Timeline.Item>
                         </Timeline>
                     </S.TimeBlock>

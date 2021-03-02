@@ -19,7 +19,7 @@ export const TimelineContent = styled.p`
 export const TimeBlock = styled.div`
     @media screen and (min-width: 768px) {
         text-align: center;
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
     }
 

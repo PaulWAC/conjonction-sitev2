@@ -12,14 +12,17 @@ export const LeftContentBlock = styled.section`
 
 export const Content = styled.p`
   margin: 1.5rem 0 2rem 0;
+  text-align:justify;
 `;
 
 export const Content2 = styled.p`
   margin: 1.5rem 0 0rem 0;
+  text-align:justify;
 `;
 
 export const Content3 = styled.p`
   margin: 0rem 0 0rem 0;
+  text-align:justify;
 `;
 
 export const ContentWrapper = styled.div`

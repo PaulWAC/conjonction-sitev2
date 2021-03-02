@@ -66,7 +66,7 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                                 <S.ImgItem1>
                                     <S.TextRightIn>{ville}</S.TextRightIn>
                                 </S.ImgItem1>
-                                <S.TextRight><span className="realistic-marker-highlight">{highlight}</span>{ville_description}<span className="realistic-marker-highlight">{highlight2}</span><span className="realistic-marker-highlight d-inline-block">{highlight3}</span></S.TextRight>  
+                                <S.TextRight><span className="realistic-marker-highlight">{highlight}</span>{ville_description}<span className="realistic-marker-highlight">{highlight2}</span></S.TextRight>  
                             </S.ImgBlockLeft>
                         </div>
                         <div>
