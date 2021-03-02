@@ -36,27 +36,27 @@ const Partenaires = () => {
                 <Row type="flex" justify="space-between" align="middle">
                     <Col lg={24}>
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.quietrent.com/"
                             src="quietrent.png"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.panga.fr/"
                             src="panga.svg"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.felicite.graphics/"
                             src="felicite.webp"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.codenekt.com/"
                             src="codenekt.png"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.sophadrien.fr/"
                             src="sophadrien.png"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://www.agglo-nevers.net/"
                             src="neversagglo.png"
                         />
                         <SocialLink 
@@ -64,7 +64,7 @@ const Partenaires = () => {
                             src="Conjonction-Assurances1.jpg"
                         />
                         <SocialLink 
-                            href="https://fr.linkedin.com/company/conjonction1"
+                            href="https://axescommerce.octissimo.com/"
                             src="axesimmo.jpg"
                         />
                     </Col>

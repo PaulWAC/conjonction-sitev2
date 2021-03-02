@@ -26,19 +26,19 @@ const Partenaires = ({ title, content, button, t, highlight }) => {
                 <Col lg={24} md={24} sm={24} xs={24}>
                     <h6>{t(title)}</h6>
                     <SocialLink 
-                        href="https://fr.linkedin.com/company/conjonction1"
+                        href="https://www.quietrent.com/"
                         src="quietrent.png"
                     />
                     <SocialLink 
-                        href="https://fr.linkedin.com/company/conjonction1"
+                        href="https://www.panga.fr/"
                         src="panga.svg"
                     />
                     <SocialLink 
-                        href="https://fr.linkedin.com/company/conjonction1"
+                        href="https://www.felicite.graphics/"
                         src="felicite.webp"
                     />
                     <SocialLink 
-                        href="https://fr.linkedin.com/company/conjonction1"
+                        href="https://www.codenekt.com/"
                         src="codenekt.png"
                     />
                     <Link to="/nos-partenaires">
