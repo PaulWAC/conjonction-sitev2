@@ -102,7 +102,7 @@ export const Span = styled.span`
 `;
 
 export const BackgroundTop = styled.div`
-  background: url(https://conjonction.com/storage/2019/09/first_background_nantes.png?id=8873);
+  background: url("./img/png/first_background_nantes.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
