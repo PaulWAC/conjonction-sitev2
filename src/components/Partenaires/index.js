@@ -3,8 +3,10 @@ import { Row, Col, Button } from "antd";
 import { Link } from "react-router-dom";
 import { withTranslation } from "react-i18next";
 
+
 import * as S from "./styles";
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
+// const Button = lazy(() => import("../../common/Button"));
 
 const Partenaires = ({ title, content, button, t, highlight }) => {
     const SocialLink = ({ href, src }) => {
@@ -41,9 +43,9 @@ const Partenaires = ({ title, content, button, t, highlight }) => {
                         href="https://www.codenekt.com/"
                         src="codenekt.png"
                     />
-                    <Link to="/nos-partenaires">
-                        <S.ButtonLink type="link">Voir plus</S.ButtonLink>
-                    </Link>
+                    <a href="/nos-partenaires">
+                        <Button>Voir plus</Button>
+                    </a>
                 </Col>
             </Row>
         </S.PartenairesBlock>

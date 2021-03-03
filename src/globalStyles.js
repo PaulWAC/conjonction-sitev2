@@ -256,10 +256,18 @@ const Styles = createGlobalStyle`
         cursor:not-allowed;
     }
 
-    // Carousel Villes
 
+    // Carousel global
+    .ant-carousel .slick-dots li button {
+        height:15px;
+    }
+    // Carousel Villes
     .ant-carousel .slick-dots li button{
-        background-color:#000 !important;
+        background-color:#085585 !important;
+    }
+    // Carousel Projets
+    #product .ant-carousel .slick-dots-bottom {
+        bottom: 0px;
     }
 `;
 
