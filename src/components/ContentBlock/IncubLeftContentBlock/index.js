@@ -18,7 +18,7 @@ const contentStyle = {
   background: '#364d79',
 };
 
-const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, id, content_start,highlight,content_end, content2_start, highlight2, content2_end, highlight3, content2_end2 }) => {
+const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, id, content_start,highlight, highlight2 }) => {
   return (
     <S.LeftContentBlock>
       <Row type="flex" justify="space-between" align="middle" id={id}>
@@ -35,7 +35,7 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
             </Slide>
             </a> */}
           <Slide left>
-          <Carousel>
+          <Carousel arrows dots={false}>
           <div className="workCard position-relative">
             <a href="/incubateur/simplicite">
               <img src="/img/jpg/office.jpg" className="w-100"/>
@@ -73,7 +73,7 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
           <Slide right>
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
-              <S.Content><span className="realistic-marker-highlight">{highlight}</span>{t(content)}</S.Content>
+              <S.Content><span className="realistic-marker-highlight">{highlight}</span>{t(content)}<span className="realistic-marker-highlight">{highlight2}</span>{content2}</S.Content>
               <Button onClick={() => window.location.replace('/incubateur')}>Voir tout</Button>
               <S.ServiceWrapper>
                 <Row type="flex" justify="space-between">

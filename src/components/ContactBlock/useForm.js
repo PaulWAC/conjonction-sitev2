@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
 import axios from "axios";
+import emailjs from 'emailjs-com';
 
 const useForm = (validate) => {
   const [values, setValues] = useState({});
@@ -9,8 +10,8 @@ const useForm = (validate) => {
 
   const openNotificationWithIcon = (type) => {
     notification[type]({
-      message: "Success",
-      description: "Your message has been sent!",
+      message: "Succès",
+      description: "Votre message a bien été envoyé!",
     });
   };
 
@@ -20,13 +21,23 @@ const useForm = (validate) => {
     // Your url for API
     const url = "";
     if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values,
-        })
-        .then(() => {
-          setShouldSubmit(true);
-        });
+        // emailjs.sendForm('service_v615c6j', 'template_u3qdzps', event.target, 'user_D8HIwFnZBRMjF6D8ZVKzN')
+        console.log(errors);
+        console.log(values)
+        // .then((result) => {
+        //     console.log(result.text);
+        //     setShouldSubmit(true);
+        // }, (error) => {
+        //     setShouldSubmit(false);
+        //     console.log(error.text);
+        // });
+    //   axios
+    //     .post(url, {
+    //       ...values,
+    //     })
+    //     .then(() => {
+    //       setShouldSubmit(true);
+    //     });
     }
   };
 

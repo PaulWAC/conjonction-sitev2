@@ -38,6 +38,7 @@ const Home = () => {
         id="intro"
       /> */}
       <MiddleBlock
+        title0={IntroContent.title0}
         title={IntroContent.title}
         content={IntroContent.text}
         highlight={IntroContent.highlight}
@@ -84,8 +85,10 @@ const Home = () => {
         ville2_description={CitiesContent.ville2_description}
         ville2_description2={CitiesContent.ville2_description2}
         ville2_description3={CitiesContent.ville2_description3}
+        ville2_description4={CitiesContent.ville2_description4}
         highlight4={CitiesContent.highlight4}
         highlight5={CitiesContent.highlight5}
+        highlight7={CitiesContent.highlight7}
         ville3={CitiesContent.ville3}
         highlight6={CitiesContent.highlight6}
         ville3_description={CitiesContent.ville3_description}
@@ -97,6 +100,8 @@ const Home = () => {
         title={ProductContent.title}
         content={ProductContent.text}
         highlight={ProductContent.highlight}
+        highlight2={ProductContent.highlight2}
+        content2={ProductContent.text2}
         icon="waving.svg"
         id="product"
       />

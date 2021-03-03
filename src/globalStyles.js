@@ -112,6 +112,9 @@ const Styles = createGlobalStyle`
         color: #085585;
     }
 
+    .margin-0{
+        margin:0;
+    }
 
     // Custom timeline
 
@@ -261,6 +264,11 @@ const Styles = createGlobalStyle`
     .ant-carousel .slick-dots li button {
         height:15px;
     }
+    .ant-carousel .slick-prev::before, .ant-carousel .slick-next::before  {
+        font-size: 22px;
+        color: #095585;
+    }
+
     // Carousel Villes
     .ant-carousel .slick-dots li button{
         background-color:#085585 !important;

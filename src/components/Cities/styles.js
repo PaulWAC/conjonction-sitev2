@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CitiesBlock = styled.section`
-
+    padding: 2rem 0 2rem;
 `;
 
 export const ImgBlockLeft = styled.div`
