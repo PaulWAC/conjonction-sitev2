@@ -11,6 +11,7 @@ const Block = lazy(() => import("../Block"));
 const Input = lazy(() => import("../../common/Input"));
 const Button = lazy(() => import("../../common/Button"));
 const TextArea = lazy(() => import("../../common/TextArea"));
+const Select = lazy(() => import("../../common/Select"));
 
 
 
@@ -50,6 +51,15 @@ const ContactBlock = ({ title, text_start, text_end, highlight, highlight2, cont
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
+              </Col>
+              <Col span={24}>
+                <Select 
+                    id="Objet" 
+                    name="objet"
+                    onChange={handleChange}
+                    defaultValue="disabled"
+                />
+                <ValidationType type="select" />
               </Col>
               <Col span={24}>
                 <TextArea

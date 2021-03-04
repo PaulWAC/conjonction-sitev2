@@ -17,20 +17,22 @@ const useForm = (validate) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setErrors(validate(values));
     // Your url for API
+    setErrors(validate(values));
     const url = "";
-    if (Object.keys(values).length === 3) {
-        // emailjs.sendForm('service_v615c6j', 'template_u3qdzps', event.target, 'user_D8HIwFnZBRMjF6D8ZVKzN')
-        console.log(errors);
-        console.log(values)
-        // .then((result) => {
-        //     console.log(result.text);
-        //     setShouldSubmit(true);
-        // }, (error) => {
-        //     setShouldSubmit(false);
-        //     console.log(error.text);
-        // });
+    const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (Object.keys(values).length === 4 && reg.test(values.email) === true) {
+        console.log(values.email)
+        console.log(values);
+        // console.log(errors);
+        emailjs.sendForm('service_v615c6j', 'template_u3qdzps', event.target, 'user_D8HIwFnZBRMjF6D8ZVKzN')
+        .then((result) => {
+            console.log(result.text);
+            setShouldSubmit(true);
+        }, (error) => {
+            setShouldSubmit(false);
+            console.log(error.text);
+        });
     //   axios
     //     .post(url, {
     //       ...values,
@@ -38,6 +40,8 @@ const useForm = (validate) => {
     //     .then(() => {
     //       setShouldSubmit(true);
     //     });
+    }else{
+        console.log('erreur');
     }
   };
 

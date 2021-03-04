@@ -50,10 +50,10 @@ export const ItemDesc = styled.div`
     min-width: 0px;
     position: absolute;
     overflow: hidden;
-    bottom: 0px;
+    bottom: 20px;
     left: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     border-radius: 8px;
     z-index: 1;
     padding: 1.25rem 1.875rem;
