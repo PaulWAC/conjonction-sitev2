@@ -67,6 +67,14 @@ export const ItemDesc = styled.div`
         z-index: -1;
         opacity: 0.9;
     }
+    
+    @media only screen and (max-width: 480px) {
+      padding: 0.9rem 1.875rem;
+      p:nth-child(1) {
+        display:none;
+      }
+    }
+
 `;
 
 export const Para = styled.p`

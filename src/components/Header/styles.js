@@ -78,6 +78,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
+    color: #000;
   }
 `;
 
@@ -99,6 +100,11 @@ export const Span = styled.span`
   a{
     color:#FFF;
   }
+  @media only screen and (max-width: 768px) {
+    a{
+      color:#000;
+    }
+  }
 `;
 
 export const BackgroundTop = styled.div`
@@ -111,4 +117,7 @@ export const BackgroundTop = styled.div`
   left: 0;
   z-index: -1;
   width: 100%;
+  @media only screen and (max-width: 1400px) {
+    height: 780px;
+  }
 `;
