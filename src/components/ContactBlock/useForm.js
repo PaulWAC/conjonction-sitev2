@@ -20,19 +20,23 @@ const useForm = (validate) => {
     // Your url for API
     setErrors(validate(values));
     const url = "";
-    const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (Object.keys(values).length === 4 && reg.test(values.email) === true) {
-        console.log(values.email)
-        console.log(values);
-        // console.log(errors);
+    // console.log(Object.keys(values).length);
+    if (Object.keys(values).length === 4 ) {
+      if (!/\S+@\S+\.\S+/.test(values.email) === false) {
+        // console.log(values.email)
         emailjs.sendForm('service_v615c6j', 'template_u3qdzps', event.target, 'user_D8HIwFnZBRMjF6D8ZVKzN')
+        
         .then((result) => {
-            console.log(result.text);
+            // console.log(result.text);
             setShouldSubmit(true);
+            event.target.reset();
         }, (error) => {
             setShouldSubmit(false);
-            console.log(error.text);
+            // console.log(error.text);
         });
+      }else{
+        setShouldSubmit(false);
+      }
     //   axios
     //     .post(url, {
     //       ...values,

@@ -8,8 +8,8 @@ export default function validate(values) {
     } else if (!/\S+@\S+\.\S+/.test(values.email)) {
       errors.email = "L'adresse e-mail est invalide";
     }
-    if (!values.objet) {
-        errors.objet = "L'objet est obligatoire";
+    if (!values.objet || values.objet == "disabled") {
+        errors.objet = "Sélectionnez l'objet du message";
       }
     if (!values.message) {
       errors.message = "Le message est obligatoire";

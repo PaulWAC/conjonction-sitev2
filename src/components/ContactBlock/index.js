@@ -59,7 +59,7 @@ const ContactBlock = ({ title, text_start, text_end, highlight, highlight2, cont
                     onChange={handleChange}
                     defaultValue="disabled"
                 />
-                <ValidationType type="select" />
+                <ValidationType type="objet" />
               </Col>
               <Col span={24}>
                 <TextArea
@@ -72,7 +72,7 @@ const ContactBlock = ({ title, text_start, text_end, highlight, highlight2, cont
                 <ValidationType type="message" />
               </Col>
               <S.ButtonContainer>
-                <Button name="submit" type="submit">
+                <Button name="submit" type="reset">
                   {t("Submit")}
                 </Button>
               </S.ButtonContainer>

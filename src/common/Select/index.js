@@ -14,7 +14,7 @@ const Select = ({ id, name, placeholder, onChange, t, value, optionName, default
             defaultValue={defaultValue}
         >
         <option value="disabled" disabled>Veuillez sélectionner l'objet du message</option>
-        <option value="info">Information générales</option>
+        <option value="info">Informations générales</option>
         <option value="projet">Informations Incubateur</option>
         </select>
       </S.Select>

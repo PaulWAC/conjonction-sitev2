@@ -42,6 +42,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         highlight={IntroContent.highlight}
+        highlight2={IntroContent.highlight2}
         id="intro"
       />
       <Timeline/>
