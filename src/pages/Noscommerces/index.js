@@ -7,6 +7,7 @@ import { PageHeader } from 'antd';
 const { Title,Text, Link } = Typography;
 
 const Container = lazy(() => import("../../common/Container"));
+const Button = lazy(() => import("../../common/Button"));
 
 const Noscommerces = () => {
     return (
@@ -19,7 +20,7 @@ const Noscommerces = () => {
                 subTitle="Web application"
             />
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <h4>Une façon simple de vendre en ligne</h4>
                             <p>Une plateforme locale "e-commerce" offrant aux commerçants, aux créateurs, aux artisans, aux prestataires de services et aux collectivités une présence en ligne collective. Elle permettra en autre des animations mutualisées sont déployées auprès des habitants pour faire la promotion de ces commerces.</p>
                         <h4>Fonctionnalités :</h4>
@@ -45,12 +46,17 @@ const Noscommerces = () => {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Développé par : <span className="realistic-marker-highlight">Paul-Chaï Silavong</span></Title>
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24} md={11} sm={12} xs={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
+                        <Title level={4}>Lien vers le projet : <Button onClick={() => window.location.replace('https://nos-commerces.com')}>Cliquer ici</Button></Title>
+                    </Col>
+                </Row>
+                <Row type="flex" justify="space-between" align="middle">
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Row type="flex" justify="space-between" align="middle">
                         <Col lg={24}>
                         <h4>Aperçu :</h4>

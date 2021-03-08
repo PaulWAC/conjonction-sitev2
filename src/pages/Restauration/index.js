@@ -7,6 +7,7 @@ import { PageHeader } from 'antd';
 const { Title,Text, Link } = Typography;
 
 const Container = lazy(() => import("../../common/Container"));
+const Button = lazy(() => import("../../common/Button"));
 
 const Restauration = () => {
     return (
@@ -19,7 +20,7 @@ const Restauration = () => {
                 subTitle="Web application"
             />
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Votre contrat de travail sur-mesure</Title>
                             <p>Un projet réalisé pour les restaurateurs, et commandé par les experts de <span className="realistic-marker-highlight">Sophadrien</span>, ces derniers s'engagent à fournir à tous ces clients des services de conseil professionnels adaptés à leurs besoins.</p>
                             <p>Poussé par nos experts en intelligence artificielle, nous avons développer un véritable outil de création de contrat RH sur-mesure sans passer par la case notaire.</p>
@@ -27,7 +28,7 @@ const Restauration = () => {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <ul>
                             <li>Fiabilisez vos documents</li>
                             <li>Faites des économies</li>
@@ -36,8 +37,13 @@ const Restauration = () => {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Développé par : <span className="realistic-marker-highlight">Jayanth Srikantharajah</span></Title>
+                    </Col>
+                </Row>
+                <Row type="flex" justify="space-between" align="middle">
+                    <Col lg={24} md={24} sm={24} xs={24}>
+                        <Title level={4}>Lien vers le projet : <Button onClick={() => window.location.replace('https://restauration.herokuapp.com')}>Cliquer ici</Button></Title>
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">

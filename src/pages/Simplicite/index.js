@@ -7,6 +7,7 @@ import { PageHeader } from 'antd';
 const { Title,Text, Link } = Typography;
 
 const Container = lazy(() => import("../../common/Container"));
+const Button = lazy(() => import("../../common/Button"));
 
 const Simplicite = () => {
     return (
@@ -19,7 +20,7 @@ const Simplicite = () => {
                 subTitle="Web application"
             />
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Notre solution digitale pour mieux investir et mieux gérer.</Title>
                             <p>L'outil digital vous permet d'investir en confiance et de manière sécurisée et de suivre votre portefeuille immobilier. Il couvre les fonctionnalités de gestion (édition des avis d'échéances, suivi des encaissements, indexation, suivi des travaux...), vous donne des pistes pour réduire vos coûts (assurances, prêts, contrat d'énergie...), savoir quand arbitrer (calculs de TRI...), gérer vos documents de manière sécurisés...</p>
                         <Title level={4}>Communication et partage d'informations</Title>
@@ -27,7 +28,7 @@ const Simplicite = () => {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Fonctionnalités :</Title>
                         <ul>
                             <li>Gestion de biens et de baux</li>
@@ -37,8 +38,13 @@ const Simplicite = () => {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
-                    <Col lg={24}>
+                    <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Développé par : <span className="realistic-marker-highlight">Abed EL-KHALIL</span></Title>
+                    </Col>
+                </Row>
+                <Row type="flex" justify="space-between" align="middle">
+                    <Col lg={24} md={24} sm={24} xs={24}>
+                        <Title level={4}>Lien vers le projet : <Button onClick={() => window.location.replace('https://app.conjonction.com')}>Cliquer ici</Button></Title>
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-between" align="middle">
