@@ -65,7 +65,7 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                     <Carousel arrows dots={false}>
                         <div>
                             <S.ImgBlockLeft>
-                                <S.ImgItem1>
+                                <S.ImgItem1 className="citiesblock-mobile">
                                     <S.TextRightIn>{ville}</S.TextRightIn>
                                 </S.ImgItem1>
                                 <S.TextRight><span className="realistic-marker-highlight">{highlight}</span>{ville_description}<span className="realistic-marker-highlight">{highlight2}</span></S.TextRight>  
@@ -73,7 +73,7 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                         </div>
                         <div>
                             <S.ImgBlockRight>
-                                <S.ImgItem2>
+                                <S.ImgItem2 className="citiesblock-mobile">
                                     <S.TextRightIn>{ville2}</S.TextRightIn>
                                 </S.ImgItem2>
                                 <S.TextRight2>{ville2_description}<span className="realistic-marker-highlight">{highlight4}</span></S.TextRight2>
@@ -82,7 +82,7 @@ const CitiesBlock = ({ icon, t, id, ville, highlight, highlight2, highlight3, hi
                         </div>
                         <div>
                             <S.ImgBlockBoth>
-                                <S.ImgItem3>
+                                <S.ImgItem3 className="citiesblock-mobile">
                                     <S.TextRightIn>{ville3}</S.TextRightIn>
                                 </S.ImgItem3>
                                 <S.TextRight>{ville3_description}<span className="realistic-marker-highlight">{highlight6}</span></S.TextRight>

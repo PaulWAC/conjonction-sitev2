@@ -41,15 +41,26 @@ export const TextRightIn = styled.p`
 
 export const TextRight = styled.p`
     padding-top:2em;
+    @media only screen and (max-width: 574px) {
+        display:inline-block;
+        padding-left:15px;
+    }
 `;
 
 export const TextRight2 = styled.p`
+    @media only screen and (max-width: 574px) {
+        display:inline-block;
+        padding-left:15px;
+    }
     padding-top:2em;
     margin:0;
 `;
 
 export const TextRight3 = styled.p`
     margin:0;
+    @media only screen and (max-width: 574px) {
+        padding-left:15px;
+    }
 `;
 
 export const ImgItem2 = styled.div`

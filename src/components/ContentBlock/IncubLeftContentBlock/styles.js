@@ -69,7 +69,7 @@ export const ItemDesc = styled.div`
     }
     
     @media only screen and (max-width: 480px) {
-      padding: 0.9rem 1.875rem;
+      padding: 0.5rem 1rem;
       p:nth-child(1) {
         display:none;
       }

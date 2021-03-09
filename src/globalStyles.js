@@ -208,6 +208,7 @@ const Styles = createGlobalStyle`
             padding-top:33px;
         }
     }
+
     // Background images
     .left-bg{
         background-image:url("./img/svg/img-toit.jpg");
@@ -215,6 +216,9 @@ const Styles = createGlobalStyle`
         background-size: cover;
         background-position: bottom center;
         height: 44pc;
+        @media only screen and (max-width: 574px) {
+            height:20pc;
+        }
     }
     .right-bg{
         background-image:url("./img/svg/bg-strategie.png");
@@ -222,6 +226,9 @@ const Styles = createGlobalStyle`
         background-size: cover;
         background-position: bottom center;
         height: 44pc;
+        @media only screen and (max-width: 574px) {
+            height:20pc;
+        }
     }
 
     // Incubateur Masonry & Isotope
@@ -239,6 +246,9 @@ const Styles = createGlobalStyle`
         float:left;
         padding: 0px 1rem;
         margin:50px 0;
+        @media only screen and (max-width: 780px) {
+            margin:10px 0;
+        }
     }
 
     .filter-buttons li > a{
@@ -315,10 +325,17 @@ const Styles = createGlobalStyle`
         color: #095585;
     }
 
-    // Carousel Villes
+    // Carousel Villes + responsive
     .ant-carousel .slick-dots li button{
         background-color:#085585 !important;
     }
+
+    .citiesblock-mobile{
+        @media only screen and (max-width: 574px) {
+            margin-left:12px;
+        }
+    }    
+
     // Carousel Projets
     #product .ant-carousel .slick-dots-bottom {
         bottom: 0px;
