@@ -33,48 +33,13 @@ const Footer = ({ t }) => {
       <Fade bottom>
         <S.Footer>
           <Container>
-            {/* <Row type="flex" justify="space-between">
-              <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Language>{t("Contact")}</S.Language>
-                <S.Large to="/">{t("Tell us everything")}</S.Large>
-                <S.Para>
-                  {t(
-                    `Do you have any question regarding the project? Feel free to reach out.`
-                  )}
-                </S.Para>
-                <a href="mailto:contact@conjonction.com">
-                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
-                </a>
-              </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("Policy")}</S.Title>
-                <S.Large to="/" left="true">
-                  {t("Application Security")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("Software Principles")}
-                </S.Large>
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
-                <S.Large left="true" to="/">
-                  {t("Support Center")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("Customer Support")}
-                </S.Large>
-              </Col>
-            </Row> */}
             <Row type="flex" justify="space-between">
-              <Col lg={10} md={10} sm={12} xs={24}>
+              <Col lg={8} md={8} sm={12} xs={24}>
                 {/* <S.Empty /> */}
                 <S.Language>{t("ADDRESS")}</S.Language>
                 <S.Para>22-24 Rue Rodier</S.Para>
                 <S.Para>Paris 75009</S.Para>
                 <S.Para>France</S.Para>
-                <a href="mailto:contact@conjonction.com">
-                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
-                </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
@@ -87,15 +52,12 @@ const Footer = ({ t }) => {
                 <S.Large to="/mentions-legales" left="true">
                   {t("Application Security")}
                 </S.Large>
-                {/* <S.Large left="true" to="/">
-                  {t("Press")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("Careers & Culture")}
-                </S.Large> */}
               </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Select>
+              <Col lg={8} md={8} sm={12} xs={24}>
+                <a href="mailto:contact@conjonction.com">
+                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
+                </a>
+                {/* <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
                   <S.LangSelect
                     onChange={handleChange}
@@ -104,10 +66,10 @@ const Footer = ({ t }) => {
                   >
                     <option value="fr">Français</option>
                     <option value="en">English</option>
-                    {/* <option value="es">Español</option> */}
+                    <option value="es">Español</option>
                   </S.LangSelect>
-                </S.Select>
-              </Col>
+                </S.Select> */}
+              </Col> 
             </Row>
           </Container>
         </S.Footer>
@@ -129,7 +91,7 @@ const Footer = ({ t }) => {
                   />
                 </S.LogoContainer>
               </S.NavLink>
-              <S.Para>© Conjonction Technologies 2021</S.Para>
+              <S.Para>© Conjonction 2021</S.Para>
               <S.FooterContainer>
                 {/* <SocialLink
                   href="https://github.com/Adrinlol/create-react-app-adrinlol"

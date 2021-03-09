@@ -21,7 +21,7 @@ export default function CountUpNumbers() {
             <S.NumbersBlock>
                 <Row type="flex" justify="space-between" align="middle">
                     <Col lg={8} md={8} sm={8} xs={24}>
-                            <S.TagItem>Années d'expertise en investissement immobilier</S.TagItem>
+                            <S.TagItem className="longtext-countup">Années d'expertise en investissement immobilier</S.TagItem>
                             <div className="realistic-marker-highlight-title highlight-marker-mobile">
                                 <S.CountUpTag>
                                     <CountUp end={25} delay={2}/>
@@ -30,7 +30,7 @@ export default function CountUpNumbers() {
                     </Col>
                     <Col lg={8} md={8} sm={8} xs={24}>
                         <S.TagItem>Nombre de biens revitalisés</S.TagItem>
-                        <div className="realistic-marker-highlight-title">
+                        <div className="realistic-marker-highlight-title second-countup">
                             <S.CountUpTag>
                                 <CountUp end={120} delay={2}/>
                             </S.CountUpTag>

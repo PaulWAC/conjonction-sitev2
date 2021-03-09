@@ -23,7 +23,7 @@ const Restauration = () => {
                     <Col lg={24} md={24} sm={24} xs={24}>
                         <Title level={4}>Votre contrat de travail sur-mesure</Title>
                             <p>Un projet réalisé pour les restaurateurs, et commandé par les experts de <span className="realistic-marker-highlight">Sophadrien</span>, ces derniers s'engagent à fournir à tous ces clients des services de conseil professionnels adaptés à leurs besoins.</p>
-                            <p>Poussé par nos experts en intelligence artificielle, nous avons développer un véritable outil de création de contrat RH sur-mesure sans passer par la case notaire.</p>
+                            <p>Poussé par nos experts en intelligence artificielle, nous avons développé un véritable outil de création de contrat RH sur-mesure sans passer par la case notaire.</p>
                         <Title level={4}>Fonctionnalités :</Title>
                     </Col>
                 </Row>
@@ -51,7 +51,8 @@ const Restauration = () => {
                         <Row type="flex" justify="space-between" align="middle">
                         <Col lg={24}>
                         <Title level={4}>Aperçu :</Title>
-                        <Image.PreviewGroup>
+                        <p>En cours...</p>
+                        {/* <Image.PreviewGroup>
                             <Image
                                 width={200}
                                 src="/img/png/noscommerces1.png"
@@ -64,7 +65,7 @@ const Restauration = () => {
                                 width={200}
                                 src="/img/png/noscommerces3.png"
                             />
-                           </Image.PreviewGroup>
+                           </Image.PreviewGroup> */}
                            </Col>
                         </Row>
                     </Col>

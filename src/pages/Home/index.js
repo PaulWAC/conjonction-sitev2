@@ -72,7 +72,7 @@ const Home = () => {
         content2={MissionContent.text2}
         highlight3={MissionContent.highlight3}
         content3={MissionContent.text3}
-        icon="product-launch.svg"
+        // icon="bg-strategie.png"
         id="mission"
       />
       <CitiesBlock

@@ -158,6 +158,7 @@ const Styles = createGlobalStyle`
         transform: skew(155deg);
     }
 
+    // Responsive CountUp
     
     @media only screen and (max-width: 1214px) {
         
@@ -169,9 +170,54 @@ const Styles = createGlobalStyle`
         }
     }
 
+    @media only screen and (min-width:439px) and (max-width:574px){
+        .highlight-marker-mobile:before{
+            top:62px;
+        }
+        .highlight-marker-mobile > div{
+            padding-top:0.5em;
+            padding-bottom:1em;
+        }
+        .realistic-marker-highlight-title:before{
+            top:3em;
+        }
+        .realistic-marker-highlight-title > div{ 
+            padding-top:0.5em;
+            padding-bottom:1em;
+        }
+    }
+    @media only screen and (max-width: 440px) {
+        .highlight-marker-mobile:before{
+            top:65px !important;
+        }
+        .highlight-marker-mobile > div{
+            padding-top:0.5em;
+            padding-bottom:1em;
+        }
+        .realistic-marker-highlight-title:before{
+            top:3em;
+        }
+        .realistic-marker-highlight-title > div{ 
+            padding-top:0.5em;
+            padding-bottom:1em;
+        } 
+    }
+
+    @media only screen and (min-width:680px) and (max-width:764px){
+        .second-countup > div{
+            padding-top:33px;
+        }
+    }
     // Background images
     .left-bg{
         background-image:url("./img/svg/img-toit.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: bottom center;
+        height: 44pc;
+    }
+    .right-bg{
+        background-image:url("./img/svg/bg-strategie.png");
         -webkit-background-size: cover;
         background-size: cover;
         background-position: bottom center;
