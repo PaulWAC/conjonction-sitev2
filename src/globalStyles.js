@@ -44,11 +44,11 @@ const Styles = createGlobalStyle`
     }
 
     h6{
-        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', sans-serif;
         color: #0a1f44;
         font-size: 2.575rem;
         line-height: 3.0625rem;
-        font-weight:bold;
+        font-weight:600;
         @media only screen and (max-width: 414px) {
             font-size: 1.625rem;
           }

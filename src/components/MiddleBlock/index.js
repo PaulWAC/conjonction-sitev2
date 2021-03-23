@@ -2,8 +2,9 @@ import { lazy } from "react";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
-
 import * as S from "./styles";
+
+
 
 const Button = lazy(() => import("../../common/Button"));
 
