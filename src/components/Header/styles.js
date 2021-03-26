@@ -57,6 +57,7 @@ export const Burger = styled.div`
 `;
 
 export const NotHidden = styled.div`
+  margin-top:7px;
   @media only screen and (max-width: 768px) {
     display: none;
   }
@@ -96,9 +97,15 @@ export const Outline = styled(MenuOutlined)`
 `;
 
 export const Span = styled.span`
+  &:hover{
+    color:rgb(255,130,92);
+  }
   cursor: pointer;
   a{
     color:#FFF;
+  }
+  a:hover{
+    color:rgb(255,130,92);
   }
   @media only screen and (max-width: 768px) {
     a{

@@ -47,7 +47,7 @@ const Footer = ({ t }) => {
                   {t("About")}
                 </S.Large>
                 
-                <S.BlogLink href="https://conjonction.com/blog">{t("Blog")}</S.BlogLink>
+                <S.BlogLink href="https://blog.conjonction.com/">{t("Blog")}</S.BlogLink>
                 
                 <S.Large to="/mentions-legales" left="true">
                   {t("Application Security")}
