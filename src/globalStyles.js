@@ -129,7 +129,19 @@ const Styles = createGlobalStyle`
             display:inline-block;
         }
     }
-        
+
+    // .realistic-marker-highlight{
+    //     font-weight: bold;
+    //     font-size: 24pt;
+    //     color: #89c8ff;
+    // }
+
+    // .realistic-marker-highlight-title{
+    //     font-weight: bold;
+    //     font-size: 24pt;
+    //     color: rgb(255,130,92);
+    // }
+
     .realistic-marker-highlight:before{
         content:"";
         background-color:rgb(9 187 255 / 30%);
@@ -322,7 +334,23 @@ const Styles = createGlobalStyle`
     }
     .ant-carousel .slick-prev::before, .ant-carousel .slick-next::before  {
         font-size: 22px;
-        color: #095585;
+        color: #FFF;
+        border: 1px solid #0000;
+        padding: 0px 10px;
+        background-color:#095585;
+        border-radius:50%;
+    }
+    .ant-carousel .slick-prev::before {
+        content: '<';
+    }
+    .ant-carousel .slick-next::before {
+        content: '>';
+    }
+    .ant-carousel .slick-next {
+        right: -10px;
+    }
+    .ant-carousel .slick-prev {
+        z-index:1;
     }
 
     // Carousel Villes + responsive
