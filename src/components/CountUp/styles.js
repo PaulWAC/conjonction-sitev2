@@ -2,6 +2,14 @@ import styled from 'styled-components';
 
 export const CountUpBlock = styled.section`
     text-align:center;
+    padding:14rem 0rem 0rem;
+    @media screen and (min-width:1700px) {
+        padding: 28rem 0 0rem;
+    }
+    @media screen and (max-width:475px) {
+        padding: 5rem 0 0rem;
+    }
+
 `;
 
 export const NumbersBlock = styled.div`

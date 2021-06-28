@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const CitiesBlock = styled.section`
-    padding: 2rem 0 2rem;
+    padding: 10rem 0 0rem;
+    @media only screen and (max-width: 768px) {
+        padding: 4rem 0 0rem;
+      }
 `;
 
 export const ImgBlockLeft = styled.div`

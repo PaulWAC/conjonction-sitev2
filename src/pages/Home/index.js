@@ -45,7 +45,6 @@ const Home = () => {
         highlight2={IntroContent.highlight2}
         id="intro"
       />
-      <Timeline/>
       <CountUp/>
       <ContentBlock
         type="left"
@@ -75,6 +74,7 @@ const Home = () => {
         // icon="bg-strategie.png"
         id="mission"
       />
+      <Timeline/>
       <CitiesBlock
         type="city"
         ville={CitiesContent.ville}
