@@ -45,7 +45,7 @@ const Home = () => {
         highlight2={IntroContent.highlight2}
         id="intro"
       />
-      <CountUp/>
+      <CountUp />
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -74,7 +74,7 @@ const Home = () => {
         // icon="bg-strategie.png"
         id="mission"
       />
-      <Timeline/>
+      <Timeline />
       <CitiesBlock
         type="city"
         ville={CitiesContent.ville}
@@ -106,9 +106,7 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
-      <Partenaires 
-        title={PartenairesContent.title}
-      />
+      <Partenaires title={PartenairesContent.title} />
       <ContactFrom
         title={ContactContent.title}
         text_start={ContactContent.text_start}

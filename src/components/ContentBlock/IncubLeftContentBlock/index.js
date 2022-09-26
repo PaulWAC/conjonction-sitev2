@@ -2,7 +2,8 @@ import { lazy } from "react";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import Slide from "react-reveal/Slide";
-import { Carousel } from 'antd';
+import { Carousel } from "antd";
+import { useHistory } from "react-router-dom";
 
 import SvgIcon from "../../../common/SvgIcon";
 
@@ -11,20 +12,32 @@ import * as S from "./styles";
 const Button = lazy(() => import("../../../common/Button"));
 
 const contentStyle = {
-  height: '400px',
-  color: '#fff',
-  lineHeight: '400px',
-  textAlign: 'center',
-  background: '#364d79',
+  height: "400px",
+  color: "#fff",
+  lineHeight: "400px",
+  textAlign: "center",
+  background: "#364d79",
 };
 
-const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, id, content_start,highlight, highlight2 }) => {
+const LeftContentBlock = ({
+  icon,
+  title,
+  content,
+  title2,
+  content2,
+  section,
+  t,
+  id,
+  content_start,
+  highlight,
+  highlight2,
+}) => {
+  let history = useHistory();
   return (
     <S.LeftContentBlock>
       <Row type="flex" justify="space-between" align="middle" id={id}>
-        <Col lg={11} md={11} sm={12} xs={24}>
-          
-            {/* <a href="/incubateur">
+        {/* <Col lg={11} md={11} sm={12} xs={24}> */}
+        {/* <a href="/incubateur">
             <Slide left>
               <SvgIcon
                 src={icon}
@@ -34,7 +47,7 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
               />
             </Slide>
             </a> */}
-          <Slide left>
+        {/* <Slide left>
           <Carousel arrows dots={false}>
           <div className="workCard position-relative">
             <a href="/incubateur/simplicite">
@@ -67,14 +80,28 @@ const LeftContentBlock = ({ icon, title, content, title2, content2, section, t, 
             </S.ItemDesc>
           </div>
           </Carousel>
-          </Slide>
-        </Col>
-        <Col lg={11} md={11} sm={11} xs={24}>
+          </Slide> */}
+        {/* </Col> */}
+        <Col lg={24} md={24} sm={24} xs={24}>
           <Slide right>
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
-              <S.Content><span className="realistic-marker-highlight">{highlight}</span>{t(content)}<span className="realistic-marker-highlight">{highlight2}</span>{content2}</S.Content>
-              <Button onClick={() => window.location.replace('/incubateur')}>Voir tout</Button>
+              <S.Content>
+                <span className="realistic-marker-highlight">{highlight}</span>
+                {t(content)}
+                <span className="realistic-marker-highlight">{highlight2}</span>
+                {content2}
+              </S.Content>
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://www.conjonction-technologie.com",
+                    "_blank"
+                  )
+                }
+              >
+                Voir nos projets
+              </Button>
               <S.ServiceWrapper>
                 <Row type="flex" justify="space-between">
                   {section &&
