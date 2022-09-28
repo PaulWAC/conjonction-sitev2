@@ -86,10 +86,11 @@ const CitiesBlock = ({
         justify="space-between"
         align="middle"
         className="text-center"
+        id={id}
       >
         <Col lg={24} md={24} sm={24} xs={24}>
           <Slide left>
-            <h6 className="text-center">Nos territoires d'interventions</h6>
+            <h6 className="text-center">La foncière</h6>
             <div className="villes-block">
               <S.Content>
                 <strong>{ville}</strong> :{" "}

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import { MenuOutlined } from '@ant-design/icons';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { MenuOutlined } from "@ant-design/icons";
 
 export const Header = styled.header`
   padding: 1rem 0.5rem;
@@ -19,6 +19,14 @@ export const Container = styled.div`
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
+  @media only screen and (min-width: 1080px) {
+    .navMenuCenter {
+      justify-content: center !important;
+    }
+  }
+  .navMenuCenter {
+    justify-content: space-between;
+  }
 `;
 
 export const NavLink = styled.div`
@@ -41,7 +49,7 @@ export const CustomNavLink = styled.div`
 
 export const ContactWrapper = styled.div`
   cursor: pointer;
-  width: ${(props) => (props.width ? '100%' : '110px')};
+  width: ${(props) => (props.width ? "100%" : "110px")};
   font-weight: 700;
   text-align: center;
   border-radius: 1.25rem;
@@ -57,7 +65,7 @@ export const Burger = styled.div`
 `;
 
 export const NotHidden = styled.div`
-  margin-top:7px;
+  margin-top: 7px;
   @media only screen and (max-width: 768px) {
     display: none;
   }
@@ -73,7 +81,7 @@ export const Menu = styled.h5`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1rem;
-  color: #FFF;
+  color: #fff;
   transition: color 0.2s ease-in;
   margin: 0.25rem 2rem;
 
@@ -93,23 +101,23 @@ export const Label = styled.span`
 
 export const Outline = styled(MenuOutlined)`
   font-size: 22px;
-  padding-right: ${(props) => (props.padding ? '10px' : '')};
+  padding-right: ${(props) => (props.padding ? "10px" : "")};
 `;
 
 export const Span = styled.span`
-  &:hover{
-    color:rgb(255,130,92);
+  &:hover {
+    color: rgb(255, 130, 92);
   }
   cursor: pointer;
-  a{
-    color:#FFF;
+  a {
+    color: #fff;
   }
-  a:hover{
-    color:rgb(255,130,92);
+  a:hover {
+    color: rgb(255, 130, 92);
   }
   @media only screen and (max-width: 768px) {
-    a{
-      color:#000;
+    a {
+      color: #000;
     }
   }
 `;

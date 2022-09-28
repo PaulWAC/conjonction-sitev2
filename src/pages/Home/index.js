@@ -62,6 +62,7 @@ const Home = () => {
         icon="graphs.svg"
         id="about"
       />
+      <Timeline />
       <ContentBlock
         type="right"
         title={MissionContent.title}
@@ -74,7 +75,6 @@ const Home = () => {
         // icon="bg-strategie.png"
         id="mission"
       />
-      <Timeline />
       <CitiesBlock
         type="city"
         ville={CitiesContent.ville}
@@ -95,6 +95,7 @@ const Home = () => {
         ville3_description={CitiesContent.ville3_description}
         ville3_description2={CitiesContent.ville3_description2}
         icon="product-launch.svg"
+        id="villes"
       />
       <ContentBlock
         type="incub"
